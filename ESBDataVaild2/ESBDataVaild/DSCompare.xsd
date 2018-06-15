@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSCompare" targetNamespace="http://tempuri.org/DSCompare.xsd" xmlns:mstns="http://tempuri.org/DSCompare.xsd" xmlns="http://tempuri.org/DSCompare.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSCompare" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSCompare" msprop:Generator_UserDSName="DSCompare">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTCompare" msprop:Generator_TableClassName="DTCompareDataTable" msprop:Generator_RowEvArgName="DTCompareRowChangeEvent" msprop:Generator_TableVarName="tableDTCompare" msprop:Generator_TablePropName="DTCompare" msprop:Generator_RowDeletingName="DTCompareRowDeleting" msprop:Generator_RowChangingName="DTCompareRowChanging" msprop:Generator_RowEvHandlerName="DTCompareRowChangeEventHandler" msprop:Generator_RowDeletedName="DTCompareRowDeleted" msprop:Generator_UserTableName="DTCompare" msprop:Generator_RowChangedName="DTCompareRowChanged" msprop:Generator_RowClassName="DTCompareRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="C_ID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnC_ID" msprop:Generator_ColumnPropNameInRow="C_ID" msprop:Generator_ColumnPropNameInTable="C_IDColumn" msprop:Generator_UserColumnName="C_ID" type="xs:int" />
+              <xs:element name="FUNCTION" msprop:Generator_ColumnVarNameInTable="columnFUNCTION" msprop:Generator_ColumnPropNameInRow="FUNCTION" msprop:Generator_ColumnPropNameInTable="FUNCTIONColumn" msprop:Generator_UserColumnName="FUNCTION" type="xs:string" minOccurs="0" />
+              <xs:element name="ADDParameter" msprop:Generator_ColumnVarNameInTable="columnADDParameter" msprop:Generator_ColumnPropNameInRow="ADDParameter" msprop:Generator_ColumnPropNameInTable="ADDParameterColumn" msprop:Generator_UserColumnName="ADDParameter" type="xs:string" minOccurs="0" />
+              <xs:element name="InputType" msprop:Generator_ColumnVarNameInTable="columnInputType" msprop:Generator_ColumnPropNameInRow="InputType" msprop:Generator_ColumnPropNameInTable="InputTypeColumn" msprop:Generator_UserColumnName="InputType" type="xs:string" minOccurs="0" />
+              <xs:element name="IDNO" msprop:Generator_ColumnVarNameInTable="columnIDNO" msprop:Generator_ColumnPropNameInRow="IDNO" msprop:Generator_ColumnPropNameInTable="IDNOColumn" msprop:Generator_UserColumnName="IDNO" type="xs:string" minOccurs="0" />
+              <xs:element name="CARDNO" msprop:Generator_ColumnVarNameInTable="columnCARDNO" msprop:Generator_ColumnPropNameInRow="CARDNO" msprop:Generator_ColumnPropNameInTable="CARDNOColumn" msprop:Generator_UserColumnName="CARDNO" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTNO" msprop:Generator_ColumnVarNameInTable="columnCUSTNO" msprop:Generator_ColumnPropNameInRow="CUSTNO" msprop:Generator_ColumnPropNameInTable="CUSTNOColumn" msprop:Generator_UserColumnName="CUSTNO" type="xs:string" minOccurs="0" />
+              <xs:element name="ECS_ID" msdata:Caption="ECSD_ID" msprop:Generator_ColumnVarNameInTable="columnECS_ID" msprop:Generator_ColumnPropNameInRow="ECS_ID" msprop:Generator_ColumnPropNameInTable="ECS_IDColumn" msprop:Generator_UserColumnName="ECS_ID" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ECSResultCode" msprop:Generator_ColumnVarNameInTable="columnECSResultCode" msprop:Generator_ColumnPropNameInRow="ECSResultCode" msprop:Generator_ColumnPropNameInTable="ECSResultCodeColumn" msprop:Generator_UserColumnName="ECSResultCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ECSDATACount" msprop:Generator_ColumnVarNameInTable="columnECSDATACount" msprop:Generator_ColumnPropNameInRow="ECSDATACount" msprop:Generator_ColumnPropNameInTable="ECSDATACountColumn" msprop:Generator_UserColumnName="ECSDATACount" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ECSRetCD" msprop:Generator_ColumnVarNameInTable="columnECSRetCD" msprop:Generator_ColumnPropNameInRow="ECSRetCD" msprop:Generator_ColumnPropNameInTable="ECSRetCDColumn" msprop:Generator_UserColumnName="ECSRetCD" type="xs:int" minOccurs="0" />
+              <xs:element name="ECSRecState" msprop:Generator_ColumnVarNameInTable="columnECSRecState" msprop:Generator_ColumnPropNameInRow="ECSRecState" msprop:Generator_ColumnPropNameInTable="ECSRecStateColumn" msprop:Generator_UserColumnName="ECSRecState" type="xs:string" minOccurs="0" />
+              <xs:element name="ESB_ID" msdata:Caption="ESBD_ID" msprop:Generator_ColumnVarNameInTable="columnESB_ID" msprop:Generator_ColumnPropNameInRow="ESB_ID" msprop:Generator_ColumnPropNameInTable="ESB_IDColumn" msprop:Generator_UserColumnName="ESB_ID" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ESBResultCode" msprop:Generator_ColumnVarNameInTable="columnESBResultCode" msprop:Generator_ColumnPropNameInRow="ESBResultCode" msprop:Generator_ColumnPropNameInTable="ESBResultCodeColumn" msprop:Generator_UserColumnName="ESBResultCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ESBDATACount" msprop:Generator_ColumnVarNameInTable="columnESBDATACount" msprop:Generator_ColumnPropNameInRow="ESBDATACount" msprop:Generator_ColumnPropNameInTable="ESBDATACountColumn" msprop:Generator_UserColumnName="ESBDATACount" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ESBRetCD" msprop:Generator_ColumnVarNameInTable="columnESBRetCD" msprop:Generator_ColumnPropNameInRow="ESBRetCD" msprop:Generator_ColumnPropNameInTable="ESBRetCDColumn" msprop:Generator_UserColumnName="ESBRetCD" type="xs:int" minOccurs="0" />
+              <xs:element name="ESBRecState" msprop:Generator_ColumnVarNameInTable="columnESBRecState" msprop:Generator_ColumnPropNameInRow="ESBRecState" msprop:Generator_ColumnPropNameInTable="ESBRecStateColumn" msprop:Generator_UserColumnName="ESBRecState" type="xs:string" minOccurs="0" />
+              <xs:element name="CompareResult" msprop:Generator_ColumnVarNameInTable="columnCompareResult" msprop:Generator_ColumnPropNameInRow="CompareResult" msprop:Generator_ColumnPropNameInTable="CompareResultColumn" msprop:Generator_UserColumnName="CompareResult" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTECSDetail" msprop:Generator_TableClassName="DTECSDetailDataTable" msprop:Generator_RowEvArgName="DTECSDetailRowChangeEvent" msprop:Generator_TableVarName="tableDTECSDetail" msprop:Generator_TablePropName="DTECSDetail" msprop:Generator_RowDeletingName="DTECSDetailRowDeleting" msprop:Generator_RowChangingName="DTECSDetailRowChanging" msprop:Generator_RowEvHandlerName="DTECSDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="DTECSDetailRowDeleted" msprop:Generator_UserTableName="DTECSDetail" msprop:Generator_RowChangedName="DTECSDetailRowChanged" msprop:Generator_RowClassName="DTECSDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ECSD_ID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnECSD_ID" msprop:Generator_ColumnPropNameInRow="ECSD_ID" msprop:Generator_ColumnPropNameInTable="ECSD_IDColumn" msprop:Generator_UserColumnName="ECSD_ID" type="xs:int" />
+              <xs:element name="ECS_ID" msprop:Generator_ColumnVarNameInTable="columnECS_ID" msprop:Generator_ColumnPropNameInRow="ECS_ID" msprop:Generator_ColumnPropNameInTable="ECS_IDColumn" msprop:Generator_UserColumnName="ECS_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="ParameterName" msprop:Generator_ColumnVarNameInTable="columnParameterName" msprop:Generator_ColumnPropNameInRow="ParameterName" msprop:Generator_ColumnPropNameInTable="ParameterNameColumn" msprop:Generator_UserColumnName="ParameterName" type="xs:string" minOccurs="0" />
+              <xs:element name="ParameterValue" msprop:Generator_ColumnVarNameInTable="columnParameterValue" msprop:Generator_ColumnPropNameInRow="ParameterValue" msprop:Generator_ColumnPropNameInTable="ParameterValueColumn" msprop:Generator_UserColumnName="ParameterValue" type="xs:anyType" minOccurs="0" />
+              <xs:element name="ParameterType" msprop:Generator_ColumnVarNameInTable="columnParameterType" msprop:Generator_ColumnPropNameInRow="ParameterType" msprop:Generator_ColumnPropNameInTable="ParameterTypeColumn" msprop:Generator_UserColumnName="ParameterType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTESBDetail" msprop:Generator_TableClassName="DTESBDetailDataTable" msprop:Generator_RowEvArgName="DTESBDetailRowChangeEvent" msprop:Generator_TableVarName="tableDTESBDetail" msprop:Generator_TablePropName="DTESBDetail" msprop:Generator_RowDeletingName="DTESBDetailRowDeleting" msprop:Generator_RowChangingName="DTESBDetailRowChanging" msprop:Generator_RowEvHandlerName="DTESBDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="DTESBDetailRowDeleted" msprop:Generator_UserTableName="DTESBDetail" msprop:Generator_RowChangedName="DTESBDetailRowChanged" msprop:Generator_RowClassName="DTESBDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ESBD_ID" msdata:AutoIncrement="true" msdata:Caption="ECSD_ID" msprop:Generator_ColumnVarNameInTable="columnESBD_ID" msprop:Generator_ColumnPropNameInRow="ESBD_ID" msprop:Generator_ColumnPropNameInTable="ESBD_IDColumn" msprop:Generator_UserColumnName="ESBD_ID" type="xs:int" />
+              <xs:element name="ESB_ID" msprop:Generator_ColumnVarNameInTable="columnESB_ID" msprop:Generator_ColumnPropNameInRow="ESB_ID" msprop:Generator_ColumnPropNameInTable="ESB_IDColumn" msprop:Generator_UserColumnName="ESB_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="ParameterName" msprop:Generator_ColumnVarNameInTable="columnParameterName" msprop:Generator_ColumnPropNameInRow="ParameterName" msprop:Generator_ColumnPropNameInTable="ParameterNameColumn" msprop:Generator_UserColumnName="ParameterName" type="xs:string" minOccurs="0" />
+              <xs:element name="ParameterValue" msprop:Generator_ColumnVarNameInTable="columnParameterValue" msprop:Generator_ColumnPropNameInRow="ParameterValue" msprop:Generator_ColumnPropNameInTable="ParameterValueColumn" msprop:Generator_UserColumnName="ParameterValue" type="xs:anyType" minOccurs="0" />
+              <xs:element name="ParameterType" msprop:Generator_ColumnVarNameInTable="columnParameterType" msprop:Generator_ColumnPropNameInRow="ParameterType" msprop:Generator_ColumnPropNameInTable="ParameterTypeColumn" msprop:Generator_UserColumnName="ParameterType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTCompareDetail" msprop:Generator_TableClassName="DTCompareDetailDataTable" msprop:Generator_RowEvArgName="DTCompareDetailRowChangeEvent" msprop:Generator_TableVarName="tableDTCompareDetail" msprop:Generator_TablePropName="DTCompareDetail" msprop:Generator_RowDeletingName="DTCompareDetailRowDeleting" msprop:Generator_RowChangingName="DTCompareDetailRowChanging" msprop:Generator_RowEvHandlerName="DTCompareDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="DTCompareDetailRowDeleted" msprop:Generator_UserTableName="DTCompareDetail" msprop:Generator_RowChangedName="DTCompareDetailRowChanged" msprop:Generator_RowClassName="DTCompareDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_ID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnCD_ID" msprop:Generator_ColumnPropNameInRow="CD_ID" msprop:Generator_ColumnPropNameInTable="CD_IDColumn" msprop:Generator_UserColumnName="CD_ID" type="xs:int" />
+              <xs:element name="C_ID" msprop:Generator_ColumnVarNameInTable="columnC_ID" msprop:Generator_ColumnPropNameInRow="C_ID" msprop:Generator_ColumnPropNameInTable="C_IDColumn" msprop:Generator_UserColumnName="C_ID" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ECSD_ID" msprop:Generator_ColumnVarNameInTable="columnECSD_ID" msprop:Generator_ColumnPropNameInRow="ECSD_ID" msprop:Generator_ColumnPropNameInTable="ECSD_IDColumn" msprop:Generator_UserColumnName="ECSD_ID" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ESBD_ID" msprop:Generator_ColumnVarNameInTable="columnESBD_ID" msprop:Generator_ColumnPropNameInRow="ESBD_ID" msprop:Generator_ColumnPropNameInTable="ESBD_IDColumn" msprop:Generator_UserColumnName="ESBD_ID" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ECSParameterName" msprop:Generator_ColumnVarNameInTable="columnECSParameterName" msprop:Generator_ColumnPropNameInRow="ECSParameterName" msprop:Generator_ColumnPropNameInTable="ECSParameterNameColumn" msprop:Generator_UserColumnName="ECSParameterName" type="xs:string" minOccurs="0" />
+              <xs:element name="ECSParameterValue" msprop:Generator_ColumnVarNameInTable="columnECSParameterValue" msprop:Generator_ColumnPropNameInRow="ECSParameterValue" msprop:Generator_ColumnPropNameInTable="ECSParameterValueColumn" msprop:Generator_UserColumnName="ECSParameterValue" type="xs:anyType" minOccurs="0" />
+              <xs:element name="ECSParameterType" msprop:Generator_ColumnVarNameInTable="columnECSParameterType" msprop:Generator_ColumnPropNameInRow="ECSParameterType" msprop:Generator_ColumnPropNameInTable="ECSParameterTypeColumn" msprop:Generator_UserColumnName="ECSParameterType" type="xs:string" minOccurs="0" />
+              <xs:element name="ESBParameterName" msprop:Generator_ColumnVarNameInTable="columnESBParameterName" msprop:Generator_ColumnPropNameInRow="ESBParameterName" msprop:Generator_ColumnPropNameInTable="ESBParameterNameColumn" msprop:Generator_UserColumnName="ESBParameterName" type="xs:string" minOccurs="0" />
+              <xs:element name="ESBParameterValue" msprop:Generator_ColumnVarNameInTable="columnESBParameterValue" msprop:Generator_ColumnPropNameInRow="ESBParameterValue" msprop:Generator_ColumnPropNameInTable="ESBParameterValueColumn" msprop:Generator_UserColumnName="ESBParameterValue" type="xs:anyType" minOccurs="0" />
+              <xs:element name="ESBParameterType" msprop:Generator_ColumnVarNameInTable="columnESBParameterType" msprop:Generator_ColumnPropNameInRow="ESBParameterType" msprop:Generator_ColumnPropNameInTable="ESBParameterTypeColumn" msprop:Generator_UserColumnName="ESBParameterType" type="xs:string" minOccurs="0" />
+              <xs:element name="CompareResult" msprop:Generator_ColumnVarNameInTable="columnCompareResult" msprop:Generator_ColumnPropNameInRow="CompareResult" msprop:Generator_ColumnPropNameInTable="CompareResultColumn" msprop:Generator_UserColumnName="CompareResult" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTECS" msprop:Generator_TableClassName="DTECSDataTable" msprop:Generator_TableVarName="tableDTECS" msprop:Generator_TablePropName="DTECS" msprop:Generator_RowDeletingName="DTECSRowDeleting" msprop:Generator_RowChangingName="DTECSRowChanging" msprop:Generator_RowEvHandlerName="DTECSRowChangeEventHandler" msprop:Generator_RowDeletedName="DTECSRowDeleted" msprop:Generator_UserTableName="DTECS" msprop:Generator_RowChangedName="DTECSRowChanged" msprop:Generator_RowEvArgName="DTECSRowChangeEvent" msprop:Generator_RowClassName="DTECSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ECS_ID" msdata:AutoIncrement="true" msdata:Caption="ECSD_ID" msprop:Generator_ColumnVarNameInTable="columnECS_ID" msprop:Generator_ColumnPropNameInRow="ECS_ID" msprop:Generator_ColumnPropNameInTable="ECS_IDColumn" msprop:Generator_UserColumnName="ECS_ID" type="xs:int" />
+              <xs:element name="C_ID" msprop:Generator_ColumnVarNameInTable="columnC_ID" msprop:Generator_ColumnPropNameInRow="C_ID" msprop:Generator_ColumnPropNameInTable="C_IDColumn" msprop:Generator_UserColumnName="C_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Action" msdata:Caption="ParameterName" msprop:Generator_ColumnVarNameInTable="columnAction" msprop:Generator_ColumnPropNameInRow="Action" msprop:Generator_ColumnPropNameInTable="ActionColumn" msprop:Generator_UserColumnName="Action" type="xs:string" minOccurs="0" />
+              <xs:element name="ResultCode" msdata:Caption="ParameterValue" msprop:Generator_ColumnVarNameInTable="columnResultCode" msprop:Generator_ColumnPropNameInRow="ResultCode" msprop:Generator_ColumnPropNameInTable="ResultCodeColumn" msprop:Generator_UserColumnName="ResultCode" type="xs:int" minOccurs="0" />
+              <xs:element name="Sender" msprop:Generator_ColumnVarNameInTable="columnSender" msprop:Generator_ColumnPropNameInRow="Sender" msprop:Generator_ColumnPropNameInTable="SenderColumn" msprop:Generator_UserColumnName="Sender" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTESB" msprop:Generator_TableClassName="DTESBDataTable" msprop:Generator_TableVarName="tableDTESB" msprop:Generator_TablePropName="DTESB" msprop:Generator_RowDeletingName="DTESBRowDeleting" msprop:Generator_RowChangingName="DTESBRowChanging" msprop:Generator_RowEvHandlerName="DTESBRowChangeEventHandler" msprop:Generator_RowDeletedName="DTESBRowDeleted" msprop:Generator_UserTableName="DTESB" msprop:Generator_RowChangedName="DTESBRowChanged" msprop:Generator_RowEvArgName="DTESBRowChangeEvent" msprop:Generator_RowClassName="DTESBRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ESB_ID" msdata:AutoIncrement="true" msdata:Caption="ECSD_ID" msprop:Generator_ColumnVarNameInTable="columnESB_ID" msprop:Generator_ColumnPropNameInRow="ESB_ID" msprop:Generator_ColumnPropNameInTable="ESB_IDColumn" msprop:Generator_UserColumnName="ESB_ID" type="xs:int" />
+              <xs:element name="C_ID" msprop:Generator_ColumnVarNameInTable="columnC_ID" msprop:Generator_ColumnPropNameInRow="C_ID" msprop:Generator_ColumnPropNameInTable="C_IDColumn" msprop:Generator_UserColumnName="C_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Action" msdata:Caption="ParameterName" msprop:Generator_ColumnVarNameInTable="columnAction" msprop:Generator_ColumnPropNameInRow="Action" msprop:Generator_ColumnPropNameInTable="ActionColumn" msprop:Generator_UserColumnName="Action" type="xs:string" minOccurs="0" />
+              <xs:element name="ResultCode" msdata:Caption="ParameterValue" msprop:Generator_ColumnVarNameInTable="columnResultCode" msprop:Generator_ColumnPropNameInRow="ResultCode" msprop:Generator_ColumnPropNameInTable="ResultCodeColumn" msprop:Generator_UserColumnName="ResultCode" type="xs:int" minOccurs="0" />
+              <xs:element name="Sender" msprop:Generator_ColumnVarNameInTable="columnSender" msprop:Generator_ColumnPropNameInRow="Sender" msprop:Generator_ColumnPropNameInTable="SenderColumn" msprop:Generator_UserColumnName="Sender" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DTCompare" />
+      <xs:field xpath="mstns:C_ID" />
+    </xs:unique>
+    <xs:unique name="DTECSDetail_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DTECSDetail" />
+      <xs:field xpath="mstns:ECSD_ID" />
+    </xs:unique>
+    <xs:unique name="DTESBDetail_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DTESBDetail" />
+      <xs:field xpath="mstns:ESBD_ID" />
+    </xs:unique>
+    <xs:unique name="DTCompareDetail_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DTCompareDetail" />
+      <xs:field xpath="mstns:CD_ID" />
+    </xs:unique>
+    <xs:unique name="DTECS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DTECS" />
+      <xs:field xpath="mstns:ECS_ID" />
+    </xs:unique>
+    <xs:unique name="DTESB_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DTESB" />
+      <xs:field xpath="mstns:ESB_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

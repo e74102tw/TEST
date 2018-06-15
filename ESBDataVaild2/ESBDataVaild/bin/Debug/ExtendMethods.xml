@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExtendMethods</name>
+    </assembly>
+    <members>
+        <member name="M:ExtendMethods.ExtendMethods.isNULL(System.Object)">
+            <summary>
+            Determines whether this instance is null.
+            </summary>
+            <param name="obj">The object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.DeepCopy``1(``0)">
+            <summary>
+            Deeps the copy.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj">The object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.CloneClassObject(System.Object)">
+            <summary>
+            Clones the class object.(需含有建構式)
+            </summary>
+            <param name="objSource">The object source.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.Serialize(System.Object)">
+            <summary>
+            Serializes the specified o.
+            </summary>
+            <param name="o">The o.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.Deserialize``1(System.String)">
+            <summary>
+            Deserializes the specified s.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="s">The s.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.SaveToXML(System.Object,System.String)">
+            <summary>
+            Saves To XML.
+            </summary>
+            <param name="o">The o.</param>
+            <param name="FilePathName">Name of the file path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.ReadXMLtoDataSet(System.String,System.Data.DataSet@)">
+            <summary>
+            Reads the xml to data set.
+            </summary>
+            <param name="FilePathName">Name of the file path.</param>
+            <param name="dsO">The ds o.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.ConvertToDataTable``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            List Converts to data table.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.ToList``1(System.Data.DataTable)">
+            <summary>
+            DataTable To the list.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="table">The table.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.IsNumeric(System.String)">
+            <summary>
+            定義一個函數,作用:判斷strNumber是否為數字,是數字返回True,不是數字返回False
+            </summary>
+            <param name="strNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.SQLParam(System.String)">
+            <summary>
+            字串SQLParam處理
+            </summary>
+            <param name="strNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.GetStrByRemoveDoubleSpace(System.String)">
+            <summary>
+            Gets the string by remove double space.
+            </summary>
+            <param name="str">The string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.ToRocDateString(System.DateTime,System.Char)">
+            <summary>
+            取得民國年月日字串
+            </summary>
+            <param name="DT">被轉換的DateTime</param>
+            <param name="separator">分隔符號</param>
+            <returns>傳回RocDateString</returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.WriteLog(System.String,System.String,System.String)">
+            <summary>
+            紀錄Log檔 於 執行目錄\LOG\
+            </summary>
+            <param name="FileName">LOG檔案名稱</param>
+            <param name="FuncName">Funtion名稱</param>
+            <param name="Message">錯誤訊息</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtendMethods.ExtendMethods.WriteEexceptionLog(System.String,System.String,System.Exception)">
+            <summary>
+            紀錄Log檔 於 執行目錄\LOG\
+            </summary>
+            <param name="FileName">LOG檔案名稱</param>
+            <param name="FuncName">Funtion名稱</param>
+            <param name="ex">Exception 物件</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ExtendMethods.ExtendMethods.NullToDBNullValue(System.Object,System.Boolean)" -->
+        <member name="T:ExtendMethods.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別
+            </summary>
+        </member>
+        <member name="P:ExtendMethods.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:ExtendMethods.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+    </members>
+</doc>
